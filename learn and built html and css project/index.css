@@ -1,0 +1,405 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav {
+
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #18a2fe;
+}
+
+nav i {
+    color: #77838f;
+}
+
+.nav__part__1 {
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__part__2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #77838f;
+}
+
+.nav__bar__component {
+    background-image: url("https://learnandbuild.in/wp-content/uploads/2022/05/illustration-7-1-01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+
+}
+
+.nav__bar__component__linear {
+    background-image: linear-gradient(to right, rgba(119, 131, 143, 0.1), rgba(119, 131, 143, 0.1));
+}
+
+.nav__bar__component2 {
+    margin: 80px 60px 30px;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    gap: 40px;
+
+}
+
+.component__div2 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#component__div2__1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#component__div2__2 {
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.component__div2 h3 {
+    font-size: 16px;
+    font-weight: 200;
+    color: #313131;
+}
+
+.component__div2 h2 {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 200;
+    width: 70%;
+}
+
+.component__div2 a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #18a2fe;
+    background-color: #18a2fe;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#component__div2__3:hover {
+    transform: translateY(-5px);
+}
+
+.nav__bar__component3 {
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(to right, rgba(24, 162, 254, 0.1), rgba(24, 162, 254, 0.1));
+    height: auto;
+    border-radius: 20px;
+    width: 92%;
+    margin: 30px auto;
+    padding: 20px;
+
+
+}
+
+#nav__bar__component3 {
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.course__catagory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.course__catagory__card__1 {
+    height: 180px;
+    width: 270px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.course__catagory__card__1:hover {
+    transform: translateY(-10px);
+}
+
+.course__catagory__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    gap: 20px;
+}
+
+.course__catagory__card h4 {
+    font-weight: 300;
+    color: #77838f;
+}
+
+.course__catagory__card button {
+    padding: 10px 35px;
+    color: white;
+    background-color: #18a2fe;
+    border: none;
+    border-radius: 5px;
+}
+
+.course__catagory__card__1 div {
+    background-color: rgba(119, 131, 143, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 31% 69% 65% 35% / 59% 67% 33% 41%;
+}
+
+.course__catagory__card__1 h3 {
+    font-weight: 400;
+}
+
+.course__catagory__card__1 div i {
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+}
+
+.highring__partner {
+    background-color: #0065c2;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    padding: auto auto;
+}
+
+.highring__partner_component {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    padding: 5px 60px;
+    border-right: 1px solid white;
+}
+
+.highring__partner_component h1 {
+    font-size: 40px;
+    font-weight: 300;
+
+
+}
+
+.highring__partner_component h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top__recommendation__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.top__recommendation__section__main__div {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.top__recommendation__section__card {
+    margin-top: 50px;
+    border: 1.5px solid rgba(119, 131, 143, 0.1);
+    width: 350px;
+    height: 430px;
+    border-radius: 5px;
+    padding: 40px 10px 10px;
+    transition: all 0.3s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.top__recommendation__section__card__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.top__recommendation__section__card__image img {
+    width: 100%;
+    height: 200px;
+    object-fit: conver;
+    transition: all 0.3s ease;
+
+}
+
+.top__recommendation__section__card__image img:hover {
+    transform: scale(1.03);
+}
+
+.enrollnow__section {
+
+
+    padding: 50px 200px 300px;
+}
+
+.enrollnow__section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.enrollnow__section div button {
+    border: none;
+    background-color: #18a2fe;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 5px;
+}
+
+.review__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px auto 40px;
+    gap: 70px;
+    flex-wrap: wrap;
+    background-color: #f7f9fb;
+}
+
+.review__section h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    margin: 40px auto 40px;
+}
+
+.review__section__main {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review__section__card {
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    height: 430px;
+
+}
+
+.form__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form__section h4 {
+    margin: 100px auto;
+    font-size: 25px;
+    font-weight: 200;
+    color: gold;
+}
+
+.form__section form {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 200px;
+    gap: 20px;
+
+}
+
+.form__section form input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    color: #77838f;
+    border: 0.1px solid #77838f;
+
+}
+
+.app__section {
+    display: flex;
+    padding-bottom: 100px;
+
+}
+
+.app__section div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+footer {
+    background-color:#0065c2;
+    height: 100vh;
+    padding: 40px auto 5px;
+    color: white;
+}
+.footer__dev__main{
+    display: flex;
+    margin: 150px 40px;
+}
+.footer__dev__main div{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    gap: 10px;
+    font-weight: 200;
+
+    
+}
+.footer__dev__main div h1{
+    font-weight: 200;
+    
+}

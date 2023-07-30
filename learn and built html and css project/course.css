@@ -1,0 +1,61 @@
+section{
+   
+    width: 95%;
+    height: auto;
+    margin: 60px auto;
+    display: flex;
+}
+.section__div__corse{
+display: flex;
+flex-direction: column;
+width: 70%;
+padding: 40px 50px;
+}
+.learn{
+    display: flex;
+}
+.learn div i{
+    color: aquamarine;
+}
+.learn div p{
+    color: #77838f;
+    padding: 5px;
+}
+.options{
+    display: flex; 
+    gap: 20px;
+    
+}
+.options h2{
+     font-weight: 300;
+    
+}
+.cource__section__card {
+    margin-top: 50px;
+    border: 1.5px solid rgba(119, 131, 143, 0.1);
+    width: 350px;
+    
+    border-radius: 5px;
+    padding: 40px 10px 10px;
+    transition: all 0.3s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.cource__section__card__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.cource__section__card__image img {
+    width: 100%;
+    height: 200px;
+    object-fit: conver;
+    transition: all 0.3s ease;
+
+}
+
+.cource__section__card__image img:hover {
+    transform: scale(1.03);
+}
