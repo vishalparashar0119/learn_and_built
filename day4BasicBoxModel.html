@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* we can write multiple properties by applting comma*/
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div,h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid red;
+            margin: 100px;
+        }
+        h1{
+            
+            background-color: red;
+            padding: 50px;
+            margin: 100px auto;
+
+
+        }
+        table,td{
+            border: 2px solid red;
+            /*  it will mearg the border of table*/
+            border-collapse: collapse;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div>
+
+        <h1>this</h1>
+        <!--border width will also consider insid the value of boxmodel-->
+    </div>
+
+     <table>
+        <tr><td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td></tr>
+        <tr><td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td></tr>
+            <tr><td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td></tr>
+     </table>
+     <!-- 
+      outline is not count in boxmodel it will not affected by margin it is outside the border
+    
+       -->
+    </body>
+</html>
