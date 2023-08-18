@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+                 display: grid;
+                 border: 2px solid red;
+                 /* grid-template-columns it allow us to create multiple colums we can
+                   give multiple  of colums in it
+                    grid-template-rows same as above but for rows
+                 */
+                 /* row - gap generate gap between row */
+                 /* column gap generate gap between columns */
+
+                 grid-template-columns: 1/5 20px  40px 40px;
+                 grid-template-rows: 200px ;
+                 height: 50vh;
+                 width: 100%;
+            }
+            .flex div{
+               
+                background-color: red;
+                border: 2px solid black;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="flex">
+         <div style=" background-color:  red;">1</div>
+         <div style="background-color:  green;">2</div>
+         <div style="background-color: aqua;">3</div>
+         <div style="background-color: black;">4</div>
+         <div style="background-color: brown;">5</div>
+         <div style="background-color: orange;">6</div>
+    </div>
+    
+</body>
+</html>

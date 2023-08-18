@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            width: 30vw;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" onchange="alert(this.value)">
+
+    <select name="cars" id="cars" onchange="alert(this.value)">
+        <option value="volvo">volvo</option>
+        <option value="mercideas">mercideas</option>
+        <option value="bmw">bmw</option>
+        <option value="supra">supra</option>
+    </select>
+
+
+
+
+
+    <div>
+        <h1>from</h1>
+        <form action="" id="forms" >
+            <input id="input1" type="text" placeholder="name"> <span id="result1"></span>
+            <input id="input2" type="text" placeholder="class"> <span id="result2"></span>
+            <input id="input3" type="text" placeholder="rollno"> <span id="result3"></span>
+            <input id="input4" type="text" placeholder="age"> <span id="result4"></span>
+        </form>    
+    </div>
+    <script>
+        
+        forms.oninput = function()
+        {
+            result1.innerHTML = input1.value;
+            result2.innerHTML = input2.value;
+            result3.innerHTML = input3.value;
+            result4.innerHTML = input4.value;
+        }
+
+        let fruits = ['banana ', 'apple','mango']
+       
+        alert(fruits[0])
+        alert(fruits[1])
+        alert(fruits[2])
+
+          
+        
+    </script>
+</body>
+
+</html>

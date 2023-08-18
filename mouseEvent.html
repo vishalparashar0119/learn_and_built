@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+         width:  400px;
+         height: 400px;
+         background-color: #18a2fe;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div onclick="onMouse()" >
+         1  
+    </div>
+    <div ondblclick="onMouse()" >
+        2 
+   </div>
+   <div oncopy ="onMouse()">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fuga sequi possimus iste ratione iusto delectus molestias eos in eveniet repellendus minima, reprehenderit doloremque ipsum est sapiente quos molestiae ipsa optio aperiam nesciunt. Quaerat pariatur quia alias minus ducimus maxime, neque amet nobis? Quibusdam quisquam sapiente dolores sunt incidunt consequatur.
+   </div>
+    <script>
+        // this will call alert on clicking on function 
+        console.log( 'hello world')
+        const onMouse = () =>{
+            alert("you have click on div")
+        }
+        
+    </script>
+</body>
+</html>

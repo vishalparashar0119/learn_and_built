@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div  onclick="clickO()">
+        1
+    </div>
+    <script>
+        // even odd
+        function evenOdd ()
+        {
+
+            const a = 30; 
+            if (a % 2 == 0 ) {
+                alert('even')
+            }
+            else{
+                alert("odd")
+            }
+        }
+// celcius to farahnite
+        function farinateToCelcious()
+        {
+            const a = 40
+            const b = a * (9/5) + 32 ;
+            alert(b+"F")
+            
+        }
+        
+        farinateToCelcious()
+        
+        
+    </script>
+</body>
+</html>
